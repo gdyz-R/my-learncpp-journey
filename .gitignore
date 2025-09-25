@@ -1,0 +1,29 @@
+# Visual Studio 相关
+.vs/
+*.user
+*.suo
+*.sln.docstates
+*.userosscache
+*.sln.iml
+
+# 构建结果和对象文件 (C++)
+Debug/
+Release/
+x64/
+x86/
+*.exe
+*.obj
+*.pdb
+*.ilk
+*.lib
+*.dll
+build/
+out/
+bin/
+*.o  # 如果有 MinGW 或其他编译器
+
+# 其他常见忽略
+*.log
+*.tmp
+Thumbs.db
+.DS_Store  # Mac，但 Windows 也可

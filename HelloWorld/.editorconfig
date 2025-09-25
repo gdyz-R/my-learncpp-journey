@@ -1,0 +1,8 @@
+# 所有文件
+[*]
+guidelines = 80
+
+# C# 或 VB 文件
+[*.{cs,vb}]
+guidelines = 80, 120
+guidelines_style = 2.5px solid 40ff0000 ; 设置样式：宽度、类型、颜色 (ARGB格式)
